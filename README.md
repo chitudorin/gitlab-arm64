@@ -1,4 +1,4 @@
-# Gitlab ARM64 Docker image installation script
+# Gitlab ARM64 Docker image build script
 
 This script builds an ARM64 Gitlab (Community Edition) image. It uses [omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab) with some minor modifications to work on ARM64:
 - The base image is changed to Ubuntu 22.04 ARM64
