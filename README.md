@@ -1,11 +1,7 @@
 # Gitlab ARM64 Docker image build script
 
-This script builds an ARM64 Gitlab (Community Edition) image. It uses [omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab) with some minor modifications to work on ARM64:
-- The base image is changed to Ubuntu 22.04 ARM64
-- The RELEASE file includes the ARM package
-- Install `libatomic1` as a dependency
+This script builds an ARM64 Gitlab (Community Edition) image. It uses [omnibus-gitlab](https://gitlab.com/gitlab-org/omnibus-gitlab).
 
-Those modifications are taken from [this](https://gitlab.com/gitlab-org/omnibus-gitlab/-/issues/5673#note_1364332357) issue.
 
 ## Usage
 
